@@ -2,7 +2,7 @@
 // вход пятизначное число и проверяет, является ли оно
 // палиндромом.
 
-Console.WriteLine("Задача 15 ");
+Console.WriteLine("Задача 19 ");
 
 Console.Write(" введите число ");
 
@@ -18,12 +18,12 @@ string b = x.ToString();
 
 for (int i = 0; i < c; i++)
 
-    if (b[i] != b[c - i])
-        palindrome = false;
+    if (b[i] != b[c - i]) palindrome = false;
 if (palindrome == true)
     Console.Write(" число является палиндромом ");
 
 else
 
     Console.Write(" число не является палиндромом ");
+
 Console.ReadKey();
