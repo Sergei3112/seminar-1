@@ -1,7 +1,7 @@
 ﻿// Напишите программу, которая принимает на
 // вход три числа и выдаёт максимальное из этих чисел.
 
-Console.WriteLine("Задача 13");
+Console.WriteLine("Задача 4");
 
 Console.WriteLine("Введите первое число - ");
 double a = double.Parse(Console.ReadLine());
