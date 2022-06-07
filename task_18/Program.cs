@@ -21,3 +21,4 @@ string X(int k1, int k2, int b1, int b2)
     return result;
 }
 Console.WriteLine(X(k1, k2, b1, b2));
+
